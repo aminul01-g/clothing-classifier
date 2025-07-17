@@ -45,7 +45,5 @@ A deep learning model (ANN) trained on the Fashion MNIST dataset using PyTorch. 
 
 ```bash
 git clone https://github.com/aminul01-g/clothing-classifier.git
-cd FashionClassifierAPI
-pip install -r requirements.txt
 ```
 
