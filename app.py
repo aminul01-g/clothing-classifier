@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Load model
 model = MyNN(num_features=784)
-model.load_state_dict(torch.load("fashion_ann.pth", map_location=torch.device('cpu')))
+model.load_state_dict(torch.load("model.pth", map_location=torch.device('cpu')))
 model.eval()
 
 @app.route("/")
